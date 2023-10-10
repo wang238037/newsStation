@@ -1,0 +1,25 @@
+@import '..\\..\\style.scss';
+
+.userprofile{
+    display: flex;
+    img{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+    }
+    > div{
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        div:nth-child(1){
+            font-size: 20px;
+        }
+        div:nth-child(2){
+            height: 80px;
+            overflow: hidden;
+            padding-top: 15px;
+            box-sizing: border-box;
+        }
+    }
+}

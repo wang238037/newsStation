@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/admin/lib/css/bootstrap.css">
+    <script src="/admin/lib/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="/admin/lib/js/echarts.js"></script>
+    <script src="/admin/lib/js/lodash.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="topbar"></div>
+
+        <div class="box">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-2 sidemenu">
+
+                    </div>
+                    <div class="col-10 content">
+                        <div class="maincontent">
+                            <!-- 面包屑 -->
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item active" aria-current="page">首页</li>
+                                </ol>
+                            </nav>
+
+
+                            <!-- 个人信息 -->
+                            <div class="userprofile"></div>
+                            <div id="main" style="width: 100%;height:400px;margin-top: 30px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js" type="module"></script>
+</body>
+
+</html>

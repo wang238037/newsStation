@@ -1,0 +1,91 @@
+html,
+body,
+.main {
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main .topbar {
+  height: 50px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 100;
+}
+
+.main .box {
+  flex: 1;
+  padding-top: 50px;
+}
+
+.newsbg {
+  background-image: url("http://localhost:3000/bg.jpg");
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 100;
+}
+
+.newsbg .searchcontainer {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+}
+
+.newsbg .searchcontainer .list-group {
+  position: absolute;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.cardContainer {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cardContainer .card {
+  width: 350px;
+}
+
+.cardContainer .card .imgcover {
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+}
+
+.cardContainer .card:hover {
+  box-shadow: 0 0 10px black;
+}
+
+.newsTabs {
+  padding: 30px;
+}
+
+.newsTabs .tab-link {
+  color: black;
+}
+
+.newsTabs .listitem {
+  padding: 10px;
+  overflow: hidden;
+}
+
+.newsTabs .listitem img {
+  float: left;
+  width: 120px;
+}
+
+.newsTabs .listitem:hover {
+  box-shadow: 0 0 10px black;
+}
